@@ -62,6 +62,7 @@ Use FRED for macro/rates; later add SGOV/MOVE from market sources.
 ---
 
 ## 🧱 Repo Structure (suggested)
+```
 MoonTide/
 ├─ data/ # CSV outputs (gitignored)
 ├─ src/
@@ -72,3 +73,4 @@ MoonTide/
 ├─ environment.yml # Conda env lockfile
 ├─ .gitignore
 └─ README.md
+```
