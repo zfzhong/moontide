@@ -62,3 +62,13 @@ Use FRED for macro/rates; later add SGOV/MOVE from market sources.
 ---
 
 ## 🧱 Repo Structure (suggested)
+MoonTide/
+├─ data/ # CSV outputs (gitignored)
+├─ src/
+│ ├─ init.py
+│ ├─ fetch_fred_data.py # FRED acquisition (provided)
+│ └─ (later) fetch_market.py# SGOV/MOVE/VIX via yfinance
+├─ notebooks/ # Exploration / backtests
+├─ environment.yml # Conda env lockfile
+├─ .gitignore
+└─ README.md
