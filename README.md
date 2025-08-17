@@ -1,11 +1,15 @@
 # moontide
 
+** Code environment
 - activate env
+  ```
   conda activate mtenv
+  ```
 
 - setup env
+  ```
   conda env create -f environment.yml
-
+  ```
 
 
 # 🌕 MoonTide
