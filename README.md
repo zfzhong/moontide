@@ -1,21 +1,9 @@
-# moontide
-
-** Code environment
-- activate env
-  ```
-  conda activate mtenv
-  ```
-
-- setup env
-  ```
-  conda env create -f environment.yml
-  ```
-
-
 # 🌕 MoonTide
+MoonTide is a disciplined, risk-controlled investment project.
+
 **Phase 1: BondCycle Strategy — Pure Bond Investment Framework**
 
-MoonTide is a disciplined, risk-controlled investment project.  
+
 **BondCycle** (Phase 1) rotates capital between **short-term Treasuries (e.g., SGOV)** and **long-term U.S. Treasuries** using rule-based entry/exit logic driven by yield spreads, historical price percentiles, and the MOVE index.
 
 ---
@@ -78,3 +66,14 @@ MoonTide/
 ├─ .gitignore
 └─ README.md
 ```
+
+## Code environment
+- activate env
+  ```
+  conda activate mtenv
+  ```
+
+- setup env
+  ```
+  conda env create -f environment.yml
+  ```
