@@ -53,6 +53,11 @@ Use FRED for macro/rates; later add SGOV/MOVE from market sources.
 
 ---
 
+## Other strategies in developing
+1. probabilistic mode based Bond trading strategy
+2. vix-based tech stock put-spread selling or spx/ndx put-spread selling
+3. When hugh market crash happens, the fallback of the SPX fallback strategy is to buy long term (2-3 years) call options.
+
 ## 🧱 Repo Structure (suggested)
 ```
 MoonTide/
@@ -77,3 +82,12 @@ MoonTide/
   ```
   conda env create -f environment.yml
   ```
+
+## General goal
+
+- guidance: realizing profit as much as possible while minimizing risk.
+- create about 5%-10% annual profit by tading bond (buy-low sell-high), this strategy generally has zero risk.
+- create another 5%-10% annual profit by trading equity/index (put-spread selling), this strategy should have minimum risks. the put spread already limited the risk, however, we should has some general assumption to quantify this risk. for example, if we generally assume there will be two market crashing events yearly (spx fall 10% or more), then we will lose money on this put-spread selling strategy. But we consider the crash as an opportunity because of our fallback to spx logic. If we want to have a monthly gain 0.8% ~ 1%, then selling spx put-spread should be very doable. We want to sell the safest put-spread while maintaining a monthly gain of 0.8%-1%.
+
+- fall back to spx holding at market crash, this might bring another 5%-10% anual profit
+- togther we will realize anual 15% - 25% profit, which will doble our found in 3 years
