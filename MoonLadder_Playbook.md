@@ -73,3 +73,6 @@ MoonLadder = **4-spread ladder + SGOV safety net + crash redeploy option**.
 - Income target: ~0.8%/month.  
 - Max risk capped at ~8% of portfolio.  
 - Built for resilience and long-term compounding under the MoonTide Project.
+
+## Logic connectoing to fallback to SPX
+- We want to sell SPY at the striker which is about 10% down from the current price.
